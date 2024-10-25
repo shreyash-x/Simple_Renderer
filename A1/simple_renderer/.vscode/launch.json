@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "name": "CG",
+            "type": "cppdbg",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "miDebuggerPath": "gdb",
+            "program": "${workspaceRoot}/build/render",
+            "args": ["${workspaceRoot}/scenes/Assignment 1/Question 1/correct.json", "${workspaceRoot}/out.png"],
+        }
+    ]
+}
